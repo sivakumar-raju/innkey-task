@@ -1,0 +1,635 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.container {
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    width: 100%;
+}
+
+.interview-section {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+footer {
+    padding: 0vw 4vw 0vw 4vw;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+a.linkedin {
+    color: #0077b5;
+}
+
+a.youtube {
+    color: #ff0000;
+}
+
+a.facebook {
+    color: #3b5998;
+}
+
+a.instagram {
+    color: #e1306c;
+}
+
+a.skype {
+    color: #00aff0;
+}
+
+a.twitter {
+    color: #1da1f2;
+}
+
+a:hover {
+    color: #000;
+}
+
+.social-media-icons a {
+    margin-right: 8px; 
+    font-size: 12px
+}
+
+.social-media-icons a:last-child {
+    margin-right: 0; 
+}
+
+.custom-column {
+    color: white;
+    padding: 3vw;
+}
+.contact-us{
+    background-color: #232323;
+    padding: 0vw 3vw 0vw 3vw;
+}
+
+.footer-style{
+    padding: 14px 0px 0px 0px;
+    margin: 0px;
+}
+
+.quick-menu-list{
+list-style-type: none;
+padding: 0px;
+}
+.center-quick-menu{
+display: flex;
+justify-content: center;
+}
+
+.header-quick-menu{
+   margin-bottom: 20px;
+   font-size: 16px;
+}
+
+.header-quick-menu-first{
+    font-size: 16px;
+    color:#0077b5
+ }
+
+ .image-row {
+    display: flex;
+}
+.image-row img {
+    width: 100px; 
+    height: 100px; 
+    
+    margin: 2px; 
+}
+
+.profile-image {
+    height: auto;
+    border-radius: 50%;
+}
+.profile-container {
+    padding: 1vw 4vw 1vw 4vw;
+    display: flex;
+    align-items: center;
+    background-color: #f2efec;
+}
+
+.bg-light-blue {
+    background-color: #d6f5ff;
+}
+
+.filter{
+    position: absolute;
+    right: 0;
+    margin-right: 3vw;
+    margin-top: 15vh;
+    font-size: 2vw;
+}
+
+.transparent-card {
+    color: #fff;
+    border: 0px;
+    margin: 7px;
+    border-radius: 0px;
+    background-color: rgb(251 251 251 / 28%);;
+}
+
+.icon {
+    font-size: 30px;
+}
+.bold-text {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.small-text {
+    margin-top: 5px;
+}
+
+.icon-css{
+    text-align: center;color: #fff;
+}
+
+
+.home-image{
+    position: relative;
+    height: 400px; 
+    background-image: url('assets/hotel-management.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff; 
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+  .text-overlay {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+
+  .buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .buttons button:hover {
+    background-color: #cccccc;
+  }
+
+  .card-img-equal-height {
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .each-icon{
+    border-right: 1px solid #fff;
+    padding: 1vw 2vw;
+  }
+
+.second-top-gap{
+    margin-top:15vh
+}
+
+
+
+.left-men-img {
+    background-image: url('assets/men.png'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.6;
+}
+
+.left-men-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(2x);
+  
+}
+
+.left-men-img .content {
+    position: relative;
+}
+
+.left-men-img h4 {
+    color: #fff;
+}
+
+.row.home-image {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 1vw 2vw;
+    right: 0
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.btn-login {
+    color: #fff;
+    background-color: #024477;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.search-box .btn-search i {
+    font-size: 0.8rem;
+}
+
+.top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 4vw;
+}
+
+.input-search{
+    border: 0px;
+    border-radius: 50% 0px 0px 50%;
+}
+
+.search-box {
+    position: relative;
+    width: 300px;
+    margin-right: 2vw;
+}
+
+.customer-login-btn{
+    background-color: rgb(161, 9, 9);
+    color: #fff;
+    border-radius: 24px;
+    padding: 8px 15px 8px 15px;
+    border: 1px solid rgb(161, 9, 9);
+}
+
+.search-box input {
+    width: 100%;
+    padding: 5px 15px 5px 15px;
+    padding-right: 40px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.search-box .fa-search {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+  
+
+ 
+
+  .description-text{
+    text-align: center;
+  }
+
+  .highlight {
+    font-weight: bold;
+    font-size: 3vw;
+    color: #fff;
+}
+
+
+  .hotel-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hotel-description{
+    margin: 0vw 25vw;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5vw;
+  }
+
+  .image-below{
+         display: flex;
+        justify-content: space-around;
+        padding: 2vw 6vw 2vw 6vw;
+        background-color: #024477;
+  }
+
+  .pms-text{
+    font-size: 2vw;
+  }
+
+  .innkey-features{
+    padding: 2vw 5vw 2vw 5vw; 
+    background-image: url('assets/girl.jpg'); 
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.6;  
+  }
+
+  .scroll-container {
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+
+}
+
+/* For WebKit browsers */
+.scroll-container::-webkit-scrollbar {
+    width: 1px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+.image-style{
+    object-fit: contain;
+}
+
+.ornage-color{
+    color: orangered;
+}
+.image-with-text{
+    padding: 0px;
+    border-radius: 0px;
+}
+.breakfast-style{
+    display: flex;
+    align-items: end;
+}
+
+.know-more{
+    padding: 5px; 
+    border: 0px solid;
+}
+
+.requres-demo{
+    color: #fff;
+    background-color: #024477;
+    font-size: 0.6rem;
+}
+
+.free-consulting{
+    background-color: orangered;
+    color: #fff;
+    font-size: 0.6rem;
+}
+.break-fast{
+    margin-top: 0px;
+}
+
+.resort-img{
+    padding: 0px;
+    border-radius: 0px;
+}
+.pms-cloud{
+    background-color: #ff6300db; 
+    color: #fff; 
+    text-align: center; 
+    height: 25vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.innkey-features-head{
+    margin-bottom: 20px;color: #fff;
+}
+
+.innkey-feture-icons{
+    color: orangered;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.resrvation-icon-text-color{
+    color: #fff;
+}
+
+.hote-chain{
+    color: #ffffffa1;
+}
+
+.hr1{
+    color: #fff; 
+    background-color: #ffff; 
+    width: 60%; 
+    float: inline-start;
+}
+
+.hr2{
+    color: #fff; 
+    background-color: #ffff; 
+    width: 50%; 
+    float: inline-start;
+}
+
+.reservation-div2{
+    color: #ffffffba;
+}
+
+.house-keeping{
+    text-align: left;
+    color: #ffffffba;
+}
+
+.read-more-div3{
+  text-align: right;
+  color: #ffffffba;
+  padding-right: 0.5vw;
+}
+
+.payroll-div2{
+    color: #ffffffba;
+    text-align: left;
+}
+
+.readmore-div3{
+    text-align: right;
+    color: #ffffffba;
+}
+
+.global-distribution-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-engine-icon{
+    font-size: 6vw;
+}
+
+.loyality-icon{
+    margin-top: 10vh;
+}
+
+.profile-text-center{
+    text-align: center;
+}
+
+.grey-p{
+    text-align: center;
+}
+
+.company-img{
+    padding: 1vw 4vw 1vw 4vw;display: flex;justify-content: space-around;
+}
+
+.inn-key-color{
+    color:#0077b5
+}
+
+.inn-key-mail{
+    color:#0077b5;margin-top: 5px;
+}
+
+.men-row{
+    padding: 2vw 4vw 2vw 4vw; background: linear-gradient(to right, #02626f, #070606); position: relative;
+}
+
+.men-row2{
+    background: url('assets/mentech.png') no-repeat center center; background-size: cover; filter: blur(2px); position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;
+}
+
+.men-row3{
+    position: relative; z-index: 2;
+}
+
+.left-men-img-div{
+    padding: 2vw 4vw 2vw 4vw; background-image: linear-gradient(to right, #ffa140c7, #000000);
+}
+
+.loyal-text{
+    color: #fff; text-align: left; z-index: 100; width: 70%; margin: 15vh auto; line-height: revert;
+}
+
+.en-div{
+    margin-top: 20px;
+}
+
+.follow-us{
+    text-align: end;
+}
+
+  @media (max-width: 480px) {
+    .hotel-management-text{
+      text-transform: uppercase;
+      font-size: 3.5vw;
+      margin-bottom: 0px;
+    }
+  
+    .hotel-description{
+      margin: 0vw 8vw;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 2.8vw;
+    }
+
+    .customer-info {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    
+      margin: 16vw 5vw 2vw 0vw;
+  }
+
+  .search-box {
+    position: relative;
+    width: 200px;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+
+.customer-login-btn{
+    background-color: rgb(161, 9, 9);
+    color: #fff;
+    border-radius: 24px;
+    padding: 8px 15px 8px 15px;
+    border: 1px solid rgb(161, 9, 9);
+}
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 1vw 2vw;
+    
+}
+.pms-text{
+    font-size: 4vw;
+  }
+
+  
+.filter{
+    margin-right: 70px;
+    font-size: 8vw;
+}
+}
+
